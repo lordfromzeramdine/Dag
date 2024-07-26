@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="signup.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Store</title>
+</head>
+
+<body style="background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url(front.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;">
+        <section class="section1">
+        <h2 id="titre1">Sign Up</h2>
+        <form class="div1" name="Login" onsubmit="return validateForm(event)">
+            <div class="div2">
+                <label id="label2" for="name">Name</label>
+                <input id="input1" type="text" name="name" >
+                <div id="icon"><ion-icon name="body-outline"></ion-icon></div>
+            </div>
+            <div class="div2">
+                <label id="label2" for="email">Email</label>
+                <input id="input1" type="email" name="email" >
+                <div id="icon"><ion-icon name="mail-outline"></ion-icon></div>
+            </div>
+            <div class="div2">
+                <label id="label2" for="password">Password</label>
+                <input id="input1" type="password" name="password" >
+                <div id="icon"><ion-icon name="lock-closed-outline"></ion-icon></div>
+            </div>
+
+            <div class="div3">
+                <label><input type="checkbox"> Remember me</label>
+                <a id="href2" href="#">Forget password</a>
+            </div>
+            <div id="btn3">
+                <button id="input1" type="submit" > <a href="index.html"></a>Login</button>
+            </div>
+        </form>
+    </section>
+    <section>
+        <p class="p3">Follow us on our accounts</p>
+        <img class="img3" src="icons2.png" alt="Social Media Icons">
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="signup.js"></script>
+</body>
+
+</html>
